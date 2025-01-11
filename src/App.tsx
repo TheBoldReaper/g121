@@ -6,24 +6,24 @@ import Resources from './pages/Resources';
 import AboutUs from './pages/AboutUs';
 
 const router = createBrowserRouter([{
-  path: '/g121/',
-  element: <Home/>,
+  path: '/',
+  element: <Home />,
 },
 {
-  path: '/g121/consultation',
-  element: <Consultation/>
+  path: '/consultation',
+  element: <Consultation />
 },
 {
-  path: '/g121/courses',
-  element: <Courses/>
+  path: '/courses',
+  element: <Courses />
 },
 {
-  path: '/g121/resources',
-  element: <Resources/>
+  path: '/resources',
+  element: <Resources />
 },
 {
-  path: '/g121/aboutus',
-  element: <AboutUs/>
+  path: '/aboutus',
+  element: <AboutUs />
 }
 
 ]);
