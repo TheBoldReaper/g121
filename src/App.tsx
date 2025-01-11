@@ -6,23 +6,23 @@ import Resources from './pages/Resources';
 import AboutUs from './pages/AboutUs';
 
 const router = createBrowserRouter([{
-  path: '/',
+  path: '/g121/',
   element: <Home />,
 },
 {
-  path: '/consultation',
+  path: '/g121/consultation',
   element: <Consultation />
 },
 {
-  path: '/courses',
+  path: '/g121/courses',
   element: <Courses />
 },
 {
-  path: '/resources',
+  path: '/g121/resources',
   element: <Resources />
 },
 {
-  path: '/aboutus',
+  path: '/g121/aboutus',
   element: <AboutUs />
 }
 

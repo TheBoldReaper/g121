@@ -14,14 +14,14 @@ function Navbar() {
     return (
         <header className="navbar">
             <nav className="container-xl">
-                <Link className="icon" to="/">
+                <Link className="icon" to="/g121/">
                     <img src={opportunityHubLogo} />
                 </Link>
                 <div className="items">
-                    <Link to="/consultation">Consultation</Link>
-                    <Link to="/courses">Courses</Link>
-                    <Link to="/resources">Resources</Link>
-                    <Link to="/aboutus">About Us</Link>
+                    <Link to="/g121/consultation">Consultation</Link>
+                    <Link to="/g121/courses">Courses</Link>
+                    <Link to="/g121/resources">Resources</Link>
+                    <Link to="/g121/aboutus">About Us</Link>
                 </div>
                 <div className="utils">
                     <button className="login" type="button" onClick={login}>Login</button>
