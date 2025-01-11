@@ -1,10 +1,11 @@
 import Navbar from "../components/Navbar";
 
-function Consultation(){
+function Consultation() {
     return <>
-        <Navbar/>
+        <Navbar />
+        <div className="journey">Home {'>'} Consultation</div>
         <main>
-            <div>Consultation</div>
+
         </main>
     </>
 }

@@ -1,10 +1,11 @@
 import Navbar from "../components/Navbar";
 
-function Resources(){
+function Resources() {
     return <>
-        <Navbar/>
+        <Navbar />
+        <div className="journey">Home {'>'} Resources</div>
         <main>
-            <div>Resources</div>
+
         </main>
     </>
 }

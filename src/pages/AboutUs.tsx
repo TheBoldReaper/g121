@@ -1,10 +1,11 @@
 import Navbar from "../components/Navbar";
-
-function AboutUs(){
+import './css/aboutus.css'
+function AboutUs() {
     return <>
-        <Navbar/>
+        <Navbar />
+        <div className="journey">Home {'>'} About Us</div>
         <main>
-            <div>About Us</div>
+
         </main>
     </>
 }

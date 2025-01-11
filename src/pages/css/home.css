@@ -1,0 +1,11 @@
+.main-content {
+    margin-top: 15px;
+    font-family: 'Keania One Regular';
+    display: flex;
+    justify-content: center;
+}
+
+.main-content > h1 {
+    color: #3C3CC0;
+    text-align: center;
+}

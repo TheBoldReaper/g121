@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Inter Regular';
+    src: url(/fonts/InterVariable.ttf);
+}
+@font-face {
+    font-family: 'Keania One Regular';
+    src: url(/fonts/KeaniaOne-Regular.ttf);
+}
 html {
     line-height: 1.15;
     /* 1 */
