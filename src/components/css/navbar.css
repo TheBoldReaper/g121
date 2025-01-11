@@ -1,0 +1,36 @@
+.navbar {
+    height: 67px;
+    background-color: #F7B15B;
+    display: flex;
+    justify-content: center;
+}
+
+.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    width: 100%;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.icon > img {
+    height: 80%;
+}
+
+.items {
+    flex: 5;
+}
+.utils {
+    flex: 1;
+}
+
+
+@media (min-width: 1400px) {
+    .container-xxl {
+        max-width: 1320px;
+    }
+}
