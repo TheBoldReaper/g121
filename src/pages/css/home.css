@@ -1,11 +1,136 @@
 .main-content {
-    margin-top: 15px;
+    margin: 15px auto 0 auto;
+    width: 100%;
     font-family: 'Keania One Regular';
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .main-content > h1 {
     color: #3C3CC0;
     text-align: center;
+}
+
+
+.promotion {
+    width: 100%;
+    display: flex;
+    
+}
+
+.banner {
+    flex: 5;
+    background-color: #F9F0B9;
+    padding: 10px;
+    border-radius: 52px;
+}
+.banner > p {
+    font-size: 36px;
+    text-align: center;
+}
+.promotion > img{
+    width: 30%;
+}
+
+.discovery {
+    display: flex;
+    flex-direction: column;
+}
+
+.discovery > h1 {
+    text-align: center;
+}
+
+.discover-items {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 400px  400px;
+    grid-row: auto auto;
+    gap: 20px
+}
+
+.discover-items > div {
+    border-radius: 50px;
+    padding: 25px 25px 0 25px;
+}
+
+.card:nth-child(1), .card:nth-child(4) {
+    background-color: #B48C98;
+}
+.card:nth-child(2), .card:nth-child(3){
+    background-color: #BDE0E2
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    display: flex;
+    height: 155px;
+}
+
+.card-title > h1 {
+    font-size: 50px;
+}
+
+.card-title > h1 > a {
+    color: white;
+    text-decoration: underline;
+}
+
+.card-title > img {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.card-body {
+    height: 100%;
+    display: flex;
+}
+
+.card-body > p{
+    font-size: 34px;
+    text-align: center;
+    align-self: flex-end;
+}
+
+.footer {
+    margin-top: 50px;
+    height: 170px;
+    background-color: #F7B15B;
+    font-family: 'Keania One Regular';
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer > h1 {
+    margin: 0 auto;
+    font-size: 30px;
+    width: 100%;
+}
+.footer > p {
+    margin: 0 auto;
+
+    font-size: 30px;
+    width: 100%;
+}
+
+@media (min-width: 1400px) {
+    .main-content {
+        max-width: 1320px;
+    }
+
+    .footer > h1 {
+        max-width: 1140px;
+       
+    }
+    .footer > p {
+        max-width: 1140px;
+
+    }
 }
