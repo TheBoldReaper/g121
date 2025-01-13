@@ -1,0 +1,36 @@
+.consultation-banner {
+    height: 426px;
+    background-image: url(/consultationheading.png);
+}
+
+.consultation-banner > .container-xl {
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.consultation-banner > .container-xl > img {
+    height: 413px;
+    align-self: flex-end;
+}
+
+.consultation-heading {
+    display: flex;
+    flex-direction: column;
+}
+
+.consultation-heading > p {
+    font-size: 55px;
+    font-family: 'Keania One Regular';
+    margin-bottom: 25px;
+}
+
+.consultation-button {
+    height: 64px;
+    width: 197px;
+    border-radius: 45px;
+    font-size: 22px;
+    font-family: 'Keania One Regular';
+    background-color: #ECBFBF;
+}
