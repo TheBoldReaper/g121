@@ -39,10 +39,7 @@ a {
     background-color: transparent;
 }
 
-ol,
-ul {
-    list-style: none;
-}
+
 
 button, input[type="submit"], input[type="reset"] {
 	background: none;

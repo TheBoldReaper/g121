@@ -2,3 +2,90 @@
     margin: 5px 15px;
     font-family: 'Inter Regular';
 }
+
+.aboutus-banner{
+    height: 426px;
+    background-size: 80%;
+    background-image: url(/aboutusheading.png);
+    font-family: 'Inter Regular';
+
+    display: flex;
+    justify-content: center;
+}
+
+.aboutus-banner > .container-xl {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;    
+}
+
+.aboutus-banner > .container-xl > p {
+    font-size: 36px;
+}
+.aboutus-heading {
+    text-align: center;
+}
+
+.aboutus-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.info {
+    height: 444px;
+    background-color: #CFE3ED;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-title {
+    border-bottom: 1px black solid;
+    flex: 1;
+}
+
+.info-title > p {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0.5em 1em;
+}
+
+.info-description {
+    display: flex;
+    gap: 1em;
+    flex-grow: 2;
+    width: 100%;
+}
+
+
+.info-description > img {
+    height: 307px;
+    width: 295px;
+    align-self: center;
+    margin-left: 3em;
+}
+
+.info-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3em;
+}
+
+.info-info > h1 {
+    font-size: 40px;
+}
+
+.info-info > ul > li {
+    font-family: 'Inter Regular';
+    font-size: 36px;
+}
+
+.info-info > a {
+    font-family: 'Inter Regular';
+    font-size: 36px;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-top: auto;
+    margin-bottom: 1em;
+}
