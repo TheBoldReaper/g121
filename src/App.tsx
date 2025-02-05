@@ -4,6 +4,7 @@ import Consultation from './pages/Consultation';
 import Courses from './pages/Courses';
 import Resources from './pages/Resources';
 import AboutUs from './pages/AboutUs';
+import Jobs from './pages/Jobs';
 
 const router = createBrowserRouter([{
   path: '/g121/',
@@ -24,8 +25,11 @@ const router = createBrowserRouter([{
 {
   path: '/g121/aboutus',
   element: <AboutUs />
-}
-
+},
+{
+  path: '/g121/jobs',
+  element: <Jobs />
+},
 ]);
 
 function App() {

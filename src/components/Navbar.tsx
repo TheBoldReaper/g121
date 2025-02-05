@@ -19,6 +19,7 @@ function Navbar() {
                 </Link>
                 <div className="items">
                     <Link to="/g121/consultation">Consultation</Link>
+                    <Link to="/g121/jobs">Jobs</Link>
                     <Link to="/g121/courses">Courses</Link>
                     <Link to="/g121/resources">Resources</Link>
                     <Link to="/g121/aboutus">About Us</Link>
