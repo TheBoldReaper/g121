@@ -3,14 +3,14 @@
     background-image: url(/consultationheading.png);
 }
 
-.consultation-banner > .container-xl {
+.consultation-banner>.container-xl {
     margin: 0 auto;
     height: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.consultation-banner > .container-xl > img {
+.consultation-banner>.container-xl>img {
     height: 413px;
     align-self: flex-end;
 }
@@ -20,7 +20,7 @@
     flex-direction: column;
 }
 
-.consultation-heading > p {
+.consultation-heading>p {
     font-size: 55px;
     font-family: 'Keania One Regular';
     margin-bottom: 25px;
@@ -34,3 +34,138 @@
     font-family: 'Keania One Regular';
     background-color: #ECBFBF;
 }
+
+.consultation-content {
+    display: flex;
+    height: 100dvh;
+    justify-content: end;
+    margin-top: 100px;
+}
+
+.consultation-contact-us {
+    flex: 2;
+    margin-left: 100px;
+}
+
+.consultation-contact-us>h1 {
+    font-size: 48px;
+    font-family: 'Keania One Regular';
+}
+
+.consultation-contact-us>p {
+    font-family: 'Inter Regular';
+    font-size: 40px;
+}
+
+.consultation-email-container {
+    font-family: 'Keania One Regular';
+    min-height: 550px;
+    min-width: 990px;
+    flex: 1;
+    background-color: #F9F0B9;
+    display: grid;
+    padding: 30px 50px;
+    column-gap: 100px;
+    row-gap: 30px;
+    grid-template:
+        "a b"
+        "c d"
+        "e e"
+        "f f"
+}
+
+.consultation-item1 {
+    grid-area: a;
+}
+
+.consultation-item2 {
+    grid-area: b;
+}
+
+.consultation-item3 {
+    grid-area: c;
+}
+
+.consultation-item4 {
+    grid-area: d;
+}
+
+.consultation-item5 {
+    grid-area: e;
+}
+
+.consultation-item6 {
+    grid-area: f;
+    display: flex;
+    font-size: 2em;
+    height: fit-content;
+    margin-top: auto;
+    justify-content: space-between;
+}
+
+.consultation-email-container>div>h1 {
+    margin-bottom: 0;
+}
+
+.consultation-email-container>div>input {
+    background-color: #D9D9D9;
+    width: 100%;
+    min-height: 50px;
+    border: 0;
+}
+
+.consultation-item5>textarea {
+    height: 100% !important;
+    resize: none;
+    background-color: #D9D9D9;
+    width: 100% !important;
+    border: 0;
+}
+
+input[type="checkbox"] {
+    display: none !important;
+
+}
+
+.consultation-item6>div>label {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+input[type="checkbox"]+label::before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: #D9D9D9;
+    margin: 3px;
+}
+
+input[type="checkbox"]:checked+label::before {
+    content: "✔";
+    /* just to center inside the box */
+    display: grid;
+    place-content: center;
+}
+
+.consultation-item6 > button {
+    background-color:#D9D9D9;
+    border-radius: 45px;
+    padding: 15px;
+}
+
+#modal {
+    font-family: 'Keania One Regular';
+    border: 0;
+    background-color: #BDE0E2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+
+
+/* #modal::backdrop {
+    background-color: #ECBFBF;
+    
+} */
